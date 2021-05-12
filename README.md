@@ -1,4 +1,4 @@
-# filt
+# 🎞 filt - Image Filtering Library 
 
 **Image Filter extension library for [im](https://github.com/recp/im)**
 
