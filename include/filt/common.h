@@ -17,8 +17,10 @@
 #ifndef common_h
 #define common_h
 
-#if defined(_WIN32)
-#  ifdef LIBFILT_DLL
+#if defined(_MSC_VER)
+#  ifdef FILT_STATIC
+#    define FILT_EXPORT
+#  elif defined(FILT_EXPORTS)
 #    define FILT_EXPORT __declspec(dllexport)
 #  else
 #    define FILT_EXPORT __declspec(dllimport)
