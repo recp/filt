@@ -1,4 +1,4 @@
-module im {
+module filt {
     header "im/filt.h"
     
     export *
