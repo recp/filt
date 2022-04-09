@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#ifndef common_h
-#define common_h
+#ifndef filt_common_h
+#define filt_common_h
 
 #if defined(_MSC_VER)
 #  ifdef FILT_STATIC
@@ -43,4 +43,4 @@
 /* Image object from im library */
 struct ImImage;
 
-#endif /* common_h */
+#endif /* filt_common_h */
